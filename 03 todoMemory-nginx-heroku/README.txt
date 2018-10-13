@@ -1,11 +1,12 @@
+-------- Heroku upload --------------
 
---------------- First task Hackathon Bootcamp --------------
+1:heroku login
+2:heroku create
+3:heroku container:login
+4:heroku container:push web --app sleepy-wildwood-65176
+5:heroku container:release web --app sleepy-wildwood-65176
+6:heroku open --app sleepy-wildwood-65176
 
-First Tasks for Today's Panacloud $10K Hackathon
 
-1) Deploy basic html page with Nginx using docker on local machine
-2) Deploy basic html page with Nginx using docker on heroku
-3) Deploy in memory Todo with Nginx using docker on heroku
-4) Deploy Todo app with server API using docker on heroku
 
-Note: Step 4 will have two docker image one for client and one for server
+Links: https://devcenter.heroku.com/articles/container-registry-and-runtime
