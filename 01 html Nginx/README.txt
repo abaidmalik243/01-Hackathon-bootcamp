@@ -1,4 +1,12 @@
 
+docker login
+: docker images
+: docker container ls
+: docker tag html_page_image:v1 abaidmalik243/html_page_image
+: docker images
+: docker push abaidmalik243/html_page_image
+
+
 --------------- First task Hackathon Bootcamp --------------
 
 First Tasks for Today's Panacloud $10K Hackathon
